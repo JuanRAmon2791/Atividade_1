@@ -1,0 +1,7 @@
+Quanto à dificuldade de inserir novos alunos nessa estrutura de dados, é importante destacar que a alocação de memória em um array é estática e, portanto, não permite que seu tamanho seja alterado após a sua criação. Isso significa que, para adicionar novos elementos a um array, é necessário criar um novo array com um tamanho maior e copiar os elementos do array original para o novo array.
+
+Nesse sentido, a dificuldade de inserir novos alunos nessa estrutura de dados está relacionada ao fato de que o array já está totalmente preenchido com 25 elementos e não é possível aumentar o seu tamanho. Portanto, seria necessário criar um novo array com tamanho 30 (para acomodar os novos 5 alunos) e copiar os elementos do array original para o novo array.
+
+Essa operação de copiar os elementos pode ser custosa em termos de tempo e memória, especialmente se o array original for muito grande. Por essa razão, em cenários em que a estrutura de dados precisa ser modificada com frequência, pode ser mais adequado utilizar outras estruturas de dados dinâmicas, como listas encadeadas, que permitem a inserção de novos elementos sem a necessidade de realocar a memória de todos os elementos já existentes.
+
+Att Juan Ramon
